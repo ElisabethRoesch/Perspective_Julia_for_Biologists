@@ -3,13 +3,13 @@
 Content:
 
 
-1. Examples
+1. Examples\
 1.1. Speed
 * Single cell data and network inference
-* Dynamical systems and pharmacology
+* Dynamical systems and pharmacology\
 1.2. Abstraction
 * Structural bioinformatics
-* Image processing
+* Image processing\
 1.3. Metaprogramming
 2. Links
 * Getting started in Julia
