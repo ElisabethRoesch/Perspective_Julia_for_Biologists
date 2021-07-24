@@ -27,6 +27,7 @@
 * Feature: Metaprogramming
 * Packages: DifferentialEquations.jl, Catalyst.jl, GpABC.jl, Turing.jl
 ## 2. Links
-  * Getting started in Julia
+  * Getting started in Julia:
+    *T
   * Write your own package
   * Using old R code in your new Julia project
