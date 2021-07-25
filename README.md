@@ -28,7 +28,10 @@
 * Packages: DifferentialEquations.jl, Catalyst.jl, GpABC.jl, Turing.jl
 ## 2. Links
 ### Learning Julia:
+#### General resources ####
+  * Official website: https://julialang.org with for example tutorials with videos and notebooks https://julialang.org/learning/notebooks/
   * Julia Academy: https://juliaacademy.com
-  * Video tutorials with Notebooks: https://julialang.org/learning/notebooks/
+  * The Julia Programming Language youtube channel: https://www.youtube.com/c/TheJuliaLanguage
+#### Selected resources ####  
   * Developing your own package: https://www.youtube.com/watch?v=QVmU29rCjaA
-  * Using old R code in your new Julia project
+  * Using old R code in your new Julia project: 
