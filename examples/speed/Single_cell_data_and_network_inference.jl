@@ -13,7 +13,7 @@ mi_12 = get_mutual_information(gene_1, gene_2)
 
 # Simulate single cell data set (this is with 100 genes and 100 cells each)
 n_genes_1 = 100
-genes_1  = [rand(100) for i in 1:100]
+genes_1  = [rand(n_genes_1) for i in 1:100]
 
 # Mutual information for all genes in data set.
 mis_1 = Array{Float64}(undef, n_genes_1, n_genes_1)
