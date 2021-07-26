@@ -38,6 +38,9 @@
 #### Switching to Julia 
   * Using old R code in your new Julia project:
 #### Julia for biologists
+  * BioJulia organisation website for bioinformatics packages and discussion: https://biojulia.net
+  * Package searching on JuliaHub and Julia Observer: https://juliahub.com/ui/Packages and https://juliaobserver.com/categories/Biology
+  * "Julia for Bioinformatics and Computational Biology" talk by Ben Ward, note this talk is from 2016 and some of the details are [out of date](https://biojulia.net/post/biojl): https://www.youtube.com/watch?v=0aa3g1NrLBM
   * "On the performance and design of BioSequences compared to the Seq language" blog post by Jakob Nybo Nissen and Ben J. Ward, which discusses some design tradeoffs and benchmarking in detail: https://biojulia.net/post/seq-lang
 #### Community
   * Discourse, the main discussion forum for the Julia community: https://discourse.julialang.org
