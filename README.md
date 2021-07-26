@@ -33,9 +33,9 @@
   * Julia Academy, for free courses by core Julia developers: https://juliaacademy.com
   * The Julia Programming Language youtube channel: https://www.youtube.com/c/TheJuliaLanguage
 #### Intermediate language features
-  * Developing your own package: https://www.youtube.com/watch?v=QVmU29rCjaA
+  * "Developing Julia Packages" tutorial by Chris Rackauckas: https://www.youtube.com/watch?v=QVmU29rCjaA
   * "The Unreasonable Effectiveness of Multiple Dispatch" talk by Stefan Karpinski: https://www.youtube.com/watch?v=kc9HwsxE1OY
-#### Switching to Julia 
+#### Switching to Julia
   * Using old R code in your new Julia project:
 #### Julia for biologists
   * BioJulia organisation website for bioinformatics packages and discussion: https://biojulia.net
