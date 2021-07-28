@@ -35,6 +35,7 @@
 #### Intermediate language features
   * "Developing Julia Packages" tutorial by Chris Rackauckas: https://www.youtube.com/watch?v=QVmU29rCjaA
   * "The Unreasonable Effectiveness of Multiple Dispatch" talk by Stefan Karpinski: https://www.youtube.com/watch?v=kc9HwsxE1OY
+  * Introduction to metaprogramming workshop by David Sanders: https://www.youtube.com/watch?v=2QLhw6LVaq0
 #### Switching to Julia
   * Using old R code in your new Julia project:
 #### Julia for biologists
