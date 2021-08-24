@@ -19,7 +19,7 @@
 ### Abstraction: Example 2 - Image processing in Julia
 * Domain: Cell biology and neuroscience
 * Methodology: Image processing
-* Feature: Code reusablility
+* Feature: Code reusablilityand lazy operations
 * Packages: Images.jl
 ### Metaprogramming: Example - Biochemical reaction networks
 * Domain: Biochemistry
