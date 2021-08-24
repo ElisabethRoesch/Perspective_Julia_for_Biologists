@@ -1,6 +1,8 @@
 [deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
 ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
@@ -8,5 +10,10 @@ ImageView = "86fae568-95e7-573e-a6b2-d8a6b900c9ef"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 TestImages = "5e47fb64-e119-507b-a336-dd2b206d9990"
+TiffImages = "731e570b-9d59-4bfa-96dc-6df516fadf69"
 ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
+
+[compat]
+ImageIO = "0.5.8"
