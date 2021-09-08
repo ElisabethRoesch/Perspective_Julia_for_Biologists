@@ -37,7 +37,7 @@
   * "The Unreasonable Effectiveness of Multiple Dispatch" talk by Stefan Karpinski: https://www.youtube.com/watch?v=kc9HwsxE1OY
   * Introduction to metaprogramming workshop by David Sanders: https://www.youtube.com/watch?v=2QLhw6LVaq0
 #### Switching to Julia
-  * Using old R code in your new Julia project:
+  * Using old R code in your new Julia project:https://juliainterop.github.io/RCall.jl/stable/gettingstarted/
 #### Julia for biologists
   * BioJulia organisation website for bioinformatics packages and discussion: https://biojulia.net
   * Package searching on JuliaHub and Julia Observer: https://juliahub.com/ui/Packages and https://juliaobserver.com/categories/Biology
