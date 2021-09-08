@@ -35,8 +35,3 @@ sA32 = sA.astype('float32')
 
 # This works, but it's eager
 rA = rescale(sA32, (1, 1.5, 1.5))
-
-# Since rA is a numpy array, let's do the timing on the last dask array
-nrep = 10000
-print('time for a single element access: ', timeit.timeit('sA32[4, 99, 99]', number=nrep, globals={"sA32": sA32})/nrep)
-print('time for a single slice access: ', timeit.timeit('sA32[4, :, :]', number=nrep, globals={"sA32": sA32})/nrep)
