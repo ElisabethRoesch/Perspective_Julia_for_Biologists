@@ -43,6 +43,25 @@ Again, Julia will JIT-compile (and inline) this specific matching function into 
 
 Scikit-image also provides `flood_fill` to fill an image with a chosen colors. This is [implemented](https://github.com/scikit-image/scikit-image/blob/6ba337500114102b88817afc409203241e21b337/skimage/morphology/_flood_fill.py#L105-L111) by first computing an output Boolean-valued `mask` and then setting the `True` voxels to have the new fill value.  While Julia also (trivially) supports this mode of operation with `img[flood(args...)] .= fillvalue`, it also allows unified support for a "fill-as-you-go" implementation by supporting a `fillvalue` and optional accompanying `isfilled` function, allowing the caller to define how to test whether a particular array location has been visited.  In cases where the fill value is disjoint from any of the values in the input, this allows the entire problem to be solved with a single graph-traversal of the source array.
 
+## Lazy array types available in Julia
+
+Julia's `AbstractArray` interface allows many lazy operations that allow you to transform almost every aspect of an array's properties:
+
+| Operation | Eager method | Lazy method |
+| --------- | ------------ | ----------- |
+| Select a ROI | `img[5:50,100:130]` | `view(img, 5:50, 100:130)` |
+| Reshaping an array (e.g., 1 to 2 dims) | none | `reshape(a, 3, 5)` |
+| Reordering dimensions | `permutedims(A, (2, 1))` | `PermutedDimsArray(A, (2, 1))` |
+| Reinterpreting raw bits | none | `reinterpret(RGB{Float32}, A)` |
+| Apply a function to each value in an array | `map(f, a)` | `mappedarray(f, a)` |
+| Shift the indices of an array | none | `OffsetArray(A, -3:3, 0:15)` |
+| Add padding to edges of array | `padarray(a, Pad(:circular,2))` | `PaddedView(NaN, a, 0:4)` |
+| Spatial deformations of an array | `warp(img, tfm)` | `warpedview(img, tfm)` |
+| Combining arrays into color channels | `cat(red, green, blue; dims=dim)` | `colorview(RGB, red, green, blue)` |
+| Spatiotemporal filtering | `imfilter(img, kernel)` | `StreamingContainer{T}(f, A, axs)` |
+
+Many of these, notably the ones involving transformations of the array indexes (e.g., spatial/coordinate transformations), are missing from lazy-array packages such as Python's Dask.
+
 ## Demonstrations and source files for the figures {#demos}
 
 In Fig. 5 we present comparisons between Python and Julia in the domain of image processing; this section documents the way this comparison was performed.  These demonstrations were created on Ubuntu 20.04 using Julia 1.6.2 and Python 3.8.11.
