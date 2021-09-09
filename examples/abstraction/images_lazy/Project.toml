@@ -20,6 +20,7 @@ TiffImages = "731e570b-9d59-4bfa-96dc-6df516fadf69"
 
 [compat]
 BenchmarkTools = "1"
+BioformatsLoader = "0.3.3"
 CoordinateTransformations = "0.6"
 FileIO = "1"
 ImageBase = "0.1"
