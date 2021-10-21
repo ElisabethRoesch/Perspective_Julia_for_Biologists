@@ -6,8 +6,8 @@
 * Methodology: Network inference
 * Feature: Speed for vectorisable code
 * Packages: InformationMeasures.jl
-### Speed: Example 2 - Dynamical systems and pharmacology
-* Domain: Pharmacology
+### Speed: Example 2 - Dynamical systems and Lotka-Volterra
+* Domain: Ecology
 * Methodology: Dynamical systems
 * Feature: Speed for non linear system code
 * Packages: DifferentialEquations.jl
