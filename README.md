@@ -35,7 +35,7 @@ This example demonstrateds code reusability and the use of lazy operations in Ju
 * Feature: [Code reusablility and lazy operations](examples/abstraction/images_lazy/README.md)
 * Packages: [JuliaImages suite](https://juliaimages.org/stable/)
 ### Metaprogramming: Example - Biochemical reaction networks
-This example demonstrates metaprogramming with Julia and the code cacn be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb).
+This example demonstrates metaprogramming with Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb).
 * Domain: Biochemistry
 * Methodology: Dynamical systems
 * Feature: Metaprogramming
