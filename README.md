@@ -8,7 +8,7 @@ The code examples are chosen in a way that highlights the three core language fe
 - They are also designed to capture different levels computational focus: high-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and low-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
 - Additionally, they demonstrate different access points to Julia: jupyter notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and ``.jl`` files (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/Single_cell_data_and_network_inference.jl)).
 
-
+>  **_NOTE:_** If you feel like there is an imporant aspect of the Julia usage of biologists which we are not covering here, please feel free to let us know.  
 ## 1. Examples
 ### Speed: Example 1 - Single cell data and network inference
 This example demonstrates the speed of Julia for vectorisable code and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/Single_cell_data_and_network_inference.jl). 
