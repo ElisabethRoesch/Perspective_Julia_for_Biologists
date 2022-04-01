@@ -7,12 +7,12 @@ This is the online material connected to
 * Domain: Single cell data
 * Methodology: Network inference
 * Feature: Speed for vectorisable code
-* Packages: InformationMeasures.jl
+* Packages: [InformationMeasures.jl](https://github.com/Tchanders/InformationMeasures.jl)
 ### Speed: Example 2 - Dynamical systems and Lotka-Volterra
 * Domain: Ecology
 * Methodology: Dynamical systems
 * Feature: Speed for non linear system code
-* Packages: DifferentialEquations.jl
+* Packages: [DifferentialEquations.jl](https://diffeq.sciml.ai/stable/)
 ### Abstraction: Example 1 - Structural bioinformatics
 * Domain: Structural bioinformatics
 * Methodology: Alignments, protein structure
@@ -27,7 +27,7 @@ This is the online material connected to
 * Domain: Biochemistry
 * Methodology: Dynamical systems
 * Feature: Metaprogramming
-* Packages: DifferentialEquations.jl, Catalyst.jl, GpABC.jl, Turing.jl
+* Packages: [DifferentialEquations.jl](https://diffeq.sciml.ai/stable/), [Catalyst.jl](https://github.com/SciML/Catalyst.jl), [GpABC.jl](https://github.com/tanhevg/GpABC.jl), [Turing.jl](https://turing.ml/stable/) 
 ## 2. Links for learning more about Julia
 #### General resources
   * Official website with tutorial videos and notebooks: https://julialang.org and https://julialang.org/learning/notebooks
