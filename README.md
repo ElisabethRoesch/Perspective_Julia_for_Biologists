@@ -4,26 +4,31 @@ This is the online material connected to
 - the presentation: https://www.youtube.com/watch?v=gRj7E5kYG1I
 ## 1. Examples
 ### Speed: Example 1 - Single cell data and network inference
+This example demonstrates the speed of Julia for vectorisable code and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/Single_cell_data_and_network_inference.jl). 
 * Domain: Single cell data
 * Methodology: Network inference
 * Feature: Speed for vectorisable code
 * Packages: [InformationMeasures.jl](https://github.com/Tchanders/InformationMeasures.jl)
 ### Speed: Example 2 - Dynamical systems and Lotka-Volterra
+This example demonstrates the speed of Julia for non linear system code and can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/lotka_volterra_speed.jl).
 * Domain: Ecology
 * Methodology: Dynamical systems
 * Feature: Speed for non linear system code
 * Packages: [DifferentialEquations.jl](https://diffeq.sciml.ai/stable/)
 ### Abstraction: Example 1 - Structural bioinformatics
+This example demonstrates the composability of packages in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/abstraction/structural_bioinformatics.ipynb).
 * Domain: Structural bioinformatics
 * Methodology: Alignments, protein structure
 * Feature: Package composability
 * Packages: [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl), [BioSequences.jl](https://github.com/BioJulia/BioSequences.jl), [Bio3DViewer.jl](https://github.com/jgreener64/Bio3DView.jl), [MetaGraphs.jl](https://github.com/JuliaGraphs/MetaGraphs.jl), [LightGraphs.jl](https://github.com/sbromberger/LightGraphs.jl)
 ### Abstraction: Example 2 - Image processing in Julia
+This example demonstrateds code reusability and the use of lazy operations in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy).
 * Domain: Cell biology and neuroscience
 * Methodology: Image processing
 * Feature: [Code reusablility and lazy operations](examples/abstraction/images_lazy/README.md)
 * Packages: [JuliaImages suite](https://juliaimages.org/stable/)
 ### Metaprogramming: Example - Biochemical reaction networks
+This example demonstrates metaprogramming with Julia and the code cacn be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb).
 * Domain: Biochemistry
 * Methodology: Dynamical systems
 * Feature: Metaprogramming
