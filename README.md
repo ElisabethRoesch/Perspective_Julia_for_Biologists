@@ -3,7 +3,7 @@ This is the online material accompanying [the paper "Julia for Biologists"](http
 
 It's objective is to 
 1. provide helpful Julia code examples and 
-2. provide further information of on additional and related online material on Julia of biologists. 
+2. provide information on related online material on Julia of biologists. 
 
 The code examples are chosen in a way that highlights the three core language features of Julia: speed, abstraction and metaprogramming.
 
