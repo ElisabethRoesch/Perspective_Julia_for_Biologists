@@ -7,11 +7,10 @@ It's objective is to
 
 The code examples are chosen in a way that highlights the three core language features of Julia: speed, abstraction and metaprogramming.
 
-We also try to capture some level of diversity in the examples:
-
-- They are selected from multiple biological and methodological domains (see list below). 
-- They are also designed to capture different levels computational focus, i.e. high-level user cases (e.g.[here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/abstraction/structural_bioinformatics.ipynb)) and low level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
-- They demonstrate different access points to Julia, e.g. jupyter notebooks ([here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb) and ``.jl`` files ([here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/Single_cell_data_and_network_inference.jl).
+For the examples we want to focus on creating diversity in several regards:
+- Examples are selected from multiple biological and methodological domains (see list below). 
+- They are also designed to capture different levels computational focus: high-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/abstraction/structural_bioinformatics.ipynb)) and low-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
+- Additionally, they demonstrate different access points to Julia: jupyter notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and ``.jl`` files (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/Single_cell_data_and_network_inference.jl)).
 
 
 ## 1. Examples
