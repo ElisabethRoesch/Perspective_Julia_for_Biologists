@@ -17,7 +17,7 @@ This is the online material connected to
 * Domain: Structural bioinformatics
 * Methodology: Alignments, protein structure
 * Feature: Package composability
-* Packages: BioStructures.jl, BioSequences.jl, Bio3DViewer.jl, MetaGraphs.jl, LightGraphs.jl
+* Packages: [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl), [BioSequences.jl](https://github.com/BioJulia/BioSequences.jl), [Bio3DViewer.jl](https://github.com/jgreener64/Bio3DView.jl), [MetaGraphs.jl](https://github.com/JuliaGraphs/MetaGraphs.jl), [LightGraphs.jl](https://github.com/sbromberger/LightGraphs.jl)
 ### Abstraction: Example 2 - Image processing in Julia
 * Domain: Cell biology and neuroscience
 * Methodology: Image processing
