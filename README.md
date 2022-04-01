@@ -1,5 +1,7 @@
 # Perspective: Julia for Biologists
-
+This is the online material connected to 
+- the paper preprint: https://arxiv.org/abs/2109.09973
+- the presentation: https://www.youtube.com/watch?v=gRj7E5kYG1I
 ## 1. Examples
 ### Speed: Example 1 - Single cell data and network inference
 * Domain: Single cell data
