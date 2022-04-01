@@ -1,7 +1,8 @@
 # Perspective: Julia for Biologists
-This is the online material connected to 
-- the paper preprint: https://arxiv.org/abs/2109.09973
-- the presentation: https://www.youtube.com/watch?v=gRj7E5kYG1I
+This is the online material accompanying [this paper](https://arxiv.org/abs/2109.09973) and [this presentation](https://www.youtube.com/watch?v=gRj7E5kYG1I). \n
+It's objective is to 1. provide helpful Julia code examples and 2. provide further information of on additional and related material on Julia. \n
+The code examples are chosen in a way that highlights the three core language features of Julia: speed, abstraction and metaprogramming.
+They are selected from multiple biological and methodological domains. They are also designed to capture different levels ccomputational focus, i.e. high-level user cases and low level user cases.
 ## 1. Examples
 ### Speed: Example 1 - Single cell data and network inference
 This example demonstrates the speed of Julia for vectorisable code and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/Single_cell_data_and_network_inference.jl). 
