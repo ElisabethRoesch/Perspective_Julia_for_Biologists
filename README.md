@@ -1,6 +1,6 @@
 # Perspective: Julia for Biologists
-This is the online material accompanying [this paper](https://arxiv.org/abs/2109.09973) and [this presentation](https://www.youtube.com/watch?v=gRj7E5kYG1I). \
-It's objective is to 1. provide helpful Julia code examples and 2. provide further information of on additional and related material on Julia. \
+This is the online material accompanying [the paper "Julia for Biologists"](https://arxiv.org/abs/2109.09973) and [the JuliaCon presentation "Julia for Biologists"](https://www.youtube.com/watch?v=gRj7E5kYG1I). \\
+It's objective is to 1. provide helpful Julia code examples and 2. provide further information of on additional and related material on Julia. \\
 The code examples are chosen in a way that highlights the three core language features of Julia: speed, abstraction and metaprogramming.
 They are selected from multiple biological and methodological domains. They are also designed to capture different levels ccomputational focus, i.e. high-level user cases and low level user cases.
 ## 1. Examples
