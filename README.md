@@ -17,6 +17,7 @@ This example demonstrates the speed of Julia for vectorisable code and the code 
 * Feature: Speed for vectorisable code
 * Packages: [InformationMeasures.jl](https://github.com/Tchanders/InformationMeasures.jl)
 * Access point: Pluto notebook
+* Computational focus: high-level user case
 ### Speed: Example 2 - Dynamical systems and Lotka-Volterra
 This example demonstrates the speed of Julia for non linear system code and can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/lotka_volterra_speed.jl).
 * Domain: Ecology
@@ -24,6 +25,7 @@ This example demonstrates the speed of Julia for non linear system code and can 
 * Feature: Speed for non linear system code
 * Packages: [DifferentialEquations.jl](https://diffeq.sciml.ai/stable/)
 * Access point: ``.jl`` file
+* Computational focus: low-level user case
 ### Abstraction: Example 1 - Structural bioinformatics
 This example demonstrates the composability of packages in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/abstraction/structural_bioinformatics.ipynb).
 * Domain: Structural bioinformatics
@@ -31,6 +33,7 @@ This example demonstrates the composability of packages in Julia and the code ca
 * Feature: Package composability
 * Packages: [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl), [BioSequences.jl](https://github.com/BioJulia/BioSequences.jl), [Bio3DViewer.jl](https://github.com/jgreener64/Bio3DView.jl), [MetaGraphs.jl](https://github.com/JuliaGraphs/MetaGraphs.jl), [LightGraphs.jl](https://github.com/sbromberger/LightGraphs.jl)
 * Access point: Jupyter notebook
+* Computational focus: high-level user case
 ### Abstraction: Example 2 - Image processing in Julia
 This example demonstrateds code reusability and the use of lazy operations in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy).
 * Domain: Cell biology and neuroscience
@@ -38,6 +41,7 @@ This example demonstrateds code reusability and the use of lazy operations in Ju
 * Feature: [Code reusablility and lazy operations](examples/abstraction/images_lazy/README.md)
 * Packages: [JuliaImages suite](https://juliaimages.org/stable/)
 * Access point: Jupyter notebook
+* Computational focus: low-level user case
 ### Metaprogramming: Example - Biochemical reaction networks
 This example demonstrates metaprogramming with Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb).
 * Domain: Biochemistry
@@ -45,6 +49,7 @@ This example demonstrates metaprogramming with Julia and the code can be found [
 * Feature: Metaprogramming
 * Packages: [DifferentialEquations.jl](https://diffeq.sciml.ai/stable/), [Catalyst.jl](https://github.com/SciML/Catalyst.jl), [GpABC.jl](https://github.com/tanhevg/GpABC.jl), [Turing.jl](https://turing.ml/stable/) 
 * Access point: Jupyter notebook
+* Computational focus: high-level user case
 ## 2. Links for learning more about Julia
 #### General resources
   * Official website with tutorial videos and notebooks: https://julialang.org and https://julialang.org/learning/notebooks
