@@ -15,7 +15,7 @@ This example demonstrates the speed of Julia for vectorisable code and the code 
 * Domain: Single cell data
 * Methodology: Network inference
 * Feature: Speed for vectorisable code
-* Packages: [InformationMeasures.jl](https://github.com/Tchanders/InformationMeasures.jl)
+* Packages: [InformationMeasures.jl](https://github.com/Tchanders/InformationMeasures.jl), [Graphs.jl](https://juliagraphs.org/Graphs.jl/dev/), [SimpleWeightedGraphs.jl](https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl), [GraphPlot.jl](https://github.com/JuliaGraphs/GraphPlot.jl), [StatsPlots.jl](https://github.com/JuliaPlots/StatsPlots.jl)
 * Access point: Pluto notebook
 * Computational focus: high-level user case
 ### Speed: Example 2 - Dynamical systems and Lotka-Volterra
