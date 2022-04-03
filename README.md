@@ -1,6 +1,6 @@
 # Perspective: Julia for Biologists
 This is the online material accompanying [the paper "Julia for Biologists"](https://arxiv.org/abs/2109.09973) and [the JuliaCon presentation "Julia for Biologists"](https://www.youtube.com/watch?v=gRj7E5kYG1I). It's objective is to provide
-1. helpful Julia **code examples** and 
+1. a diverse collection of Julia **code examples** and 
 2. information on **related online material** on Julia for biologists. 
 
 
