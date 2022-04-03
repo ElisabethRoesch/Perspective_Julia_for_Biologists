@@ -23,3 +23,4 @@ for i in 1:n_genes_1
         mis_1[i,j] = get_mutual_information(genes_1[i], genes_1[j])
     end
 end
+mis_1
