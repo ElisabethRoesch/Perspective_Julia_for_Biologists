@@ -18,7 +18,7 @@ This example demonstrates the speed of Julia for vectorisable code and the code 
 * Packages: [InformationMeasures.jl](https://github.com/Tchanders/InformationMeasures.jl), [Graphs.jl](https://juliagraphs.org/Graphs.jl/dev/), [SimpleWeightedGraphs.jl](https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl), [GraphPlot.jl](https://github.com/JuliaGraphs/GraphPlot.jl), [StatsPlots.jl](https://github.com/JuliaPlots/StatsPlots.jl)
 * Access point: Pluto notebook
 * Computational focus: high-level user case
-![image](examples/vis/speed1.pnd)
+![image](examples/vis/speed1.png)
 ### Speed: Example 2 - Dynamical systems and Lotka-Volterra
 This example demonstrates the speed of Julia for non linear system code and can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/lotka_volterra_speed.jl).
 * Domain: Ecology
