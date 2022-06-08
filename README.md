@@ -36,7 +36,7 @@ This example demonstrates the composability of packages in Julia and the code ca
 * Packages: [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl), [BioSequences.jl](https://github.com/BioJulia/BioSequences.jl), [Bio3DViewer.jl](https://github.com/jgreener64/Bio3DView.jl), [MetaGraphs.jl](https://github.com/JuliaGraphs/MetaGraphs.jl), [LightGraphs.jl](https://github.com/sbromberger/LightGraphs.jl)
 * Access point: Jupyter notebook
 * Computational focus: high-level user case
-![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_bioinfo.png)
+![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_bioinfo.png){width=70%}
 *Example: Structural bioinformatics*
 ### Abstraction: Example 2 - Image processing in Julia
 This example demonstrateds code reusability and the use of lazy operations in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy).
