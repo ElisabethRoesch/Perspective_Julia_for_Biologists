@@ -37,6 +37,7 @@ This example demonstrates the composability of packages in Julia and the code ca
 * Access point: Jupyter notebook
 * Computational focus: high-level user case
 ![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_bioinfo.png)
+*Example: Structural bioinformatics*
 ### Abstraction: Example 2 - Image processing in Julia
 This example demonstrateds code reusability and the use of lazy operations in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy).
 * Domain: Cell biology and neuroscience
