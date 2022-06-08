@@ -9,7 +9,6 @@ The code [examples](https://github.com/ElisabethRoesch/Perspective_Julia_for_Bio
 - They are also designed to reflect different levels in regards to the computational focus of readers/listeners: high-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and low-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
 - Additionally, they demonstrate different access points to Julia: jupyter notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and ``.jl`` files (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
 ____
-____
 ### Example 1 - Speed: Single cell data and network inference
 ____
 ![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_network.png)
