@@ -1,16 +1,16 @@
 # Perspective: Julia for Biologists
+
 This is the online material accompanying [the paper "Julia for Biologists"](https://arxiv.org/abs/2109.09973) and [the JuliaCon presentation "Julia for Biologists"](https://www.youtube.com/watch?v=gRj7E5kYG1I). It's objective is to provide
-1. a diverse collection of Julia **code examples** and 
-2. information on **related online material** in regards to Julia for biologists. 
+A. a diverse collection of Julia **code examples** and 
+B. information on **related online material** in regards to Julia for biologists. 
 
 
-## 1. Examples
 The code [examples](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples) are chosen and organised in a way so that they highlight the three core language features of Julia: speed, abstraction and metaprogramming. We focus on capturing diversity in several regards:
 - Examples are selected from multiple biological and methodological domains (see list below). 
 - They are also designed to reflect different levels in regards to the computational focus of readers/listeners: high-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and low-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
 - Additionally, they demonstrate different access points to Julia: jupyter notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and ``.jl`` files (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
-
-### Speed: Example 1 - Single cell data and network inference
+____
+### Example 1 - Speed: Single cell data and network inference
 ____
 ![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_network.png)
 ____
@@ -23,7 +23,7 @@ This example demonstrates the speed of Julia for vectorisable code and the code 
 * Access point: Pluto notebook
 * Computational focus: high-level user case
 ____
-### Speed: Example 2 - Dynamical systems and Lotka-Volterra
+### Example 2: Speed - Dynamical systems and Lotka-Volterra
 ____
 ![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_lv.png)
 ____
@@ -35,7 +35,7 @@ This example demonstrates the speed of Julia for non linear system code and can 
 * Access point: ``.jl`` file
 * Computational focus: low-level user case
 ____
-### Abstraction: Example 1 - Structural bioinformatics
+### Example 3: Abstraction - Structural bioinformatics
 ____
 ![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_bioinfo.png)
 ____
@@ -47,7 +47,7 @@ This example demonstrates the composability of packages in Julia and the code ca
 * Access point: Jupyter notebook
 * Computational focus: high-level user case
 ____
-### Abstraction: Example 2 - Image processing in Julia
+### Example 4: Abstraction - Image processing in Julia
 ____
 ![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_im.png)
 ____
@@ -59,7 +59,7 @@ This example demonstrateds code reusability and the use of lazy operations in Ju
 * Access point: Jupyter notebook
 * Computational focus: low-level user case
 ____
-### Metaprogramming: Example - Biochemical reaction networks
+### Example 5: Metaprogramming - Biochemical reaction networks
 ____
 ![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/meta.png)
 ____
@@ -71,7 +71,7 @@ This example demonstrates metaprogramming with Julia and the code can be found [
 * Access point: Jupyter notebook
 * Computational focus: high-level user case
 ____
-## 2. Links for learning more about Julia
+
 #### General resources
   * Official website with tutorial videos and notebooks: https://julialang.org and https://julialang.org/learning/notebooks
   * Download and install Julia: https://julialang.org/downloads
