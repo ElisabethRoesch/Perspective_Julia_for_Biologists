@@ -5,10 +5,10 @@ This is the online material accompanying [the paper "Julia for Biologists"](http
 
 
 ## 1. Examples
-The code examples are chosen and organised in a way so that they highlight the three core language features of Julia: speed, abstraction and metaprogramming. We focus on capturing diversity in several regards:
+The code [examples](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples) are chosen and organised in a way so that they highlight the three core language features of Julia: speed, abstraction and metaprogramming. We focus on capturing diversity in several regards:
 - Examples are selected from multiple biological and methodological domains (see list below). 
 - They are also designed to reflect different levels in regards to the computational focus of readers/listeners: high-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and low-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
-- Additionally, they demonstrate different access points to Julia: jupyter notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and ``.jl`` files (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/Single_cell_data_and_network_inference.jl)).
+- Additionally, they demonstrate different access points to Julia: jupyter notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and ``.jl`` files (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
 
 ### Speed: Example 1 - Single cell data and network inference
 This example demonstrates the speed of Julia for vectorisable code and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/Single_cell_data_and_network_inference.jl). 
@@ -18,6 +18,7 @@ This example demonstrates the speed of Julia for vectorisable code and the code 
 * Packages: [InformationMeasures.jl](https://github.com/Tchanders/InformationMeasures.jl), [Graphs.jl](https://juliagraphs.org/Graphs.jl/dev/), [SimpleWeightedGraphs.jl](https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl), [GraphPlot.jl](https://github.com/JuliaGraphs/GraphPlot.jl), [StatsPlots.jl](https://github.com/JuliaPlots/StatsPlots.jl)
 * Access point: Pluto notebook
 * Computational focus: high-level user case
+![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_network.png)
 ### Speed: Example 2 - Dynamical systems and Lotka-Volterra
 This example demonstrates the speed of Julia for non linear system code and can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/lotka_volterra_speed.jl).
 * Domain: Ecology
