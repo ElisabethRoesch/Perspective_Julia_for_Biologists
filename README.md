@@ -27,6 +27,7 @@ This example demonstrates the speed of Julia for non linear system code and can 
 * Packages: [DifferentialEquations.jl](https://diffeq.sciml.ai/stable/)
 * Access point: ``.jl`` file
 * Computational focus: low-level user case
+![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_lv.png)
 ### Abstraction: Example 1 - Structural bioinformatics
 This example demonstrates the composability of packages in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/abstraction/structural_bioinformatics.ipynb).
 * Domain: Structural bioinformatics
@@ -35,6 +36,7 @@ This example demonstrates the composability of packages in Julia and the code ca
 * Packages: [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl), [BioSequences.jl](https://github.com/BioJulia/BioSequences.jl), [Bio3DViewer.jl](https://github.com/jgreener64/Bio3DView.jl), [MetaGraphs.jl](https://github.com/JuliaGraphs/MetaGraphs.jl), [LightGraphs.jl](https://github.com/sbromberger/LightGraphs.jl)
 * Access point: Jupyter notebook
 * Computational focus: high-level user case
+![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_bioinfo.png)
 ### Abstraction: Example 2 - Image processing in Julia
 This example demonstrateds code reusability and the use of lazy operations in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy).
 * Domain: Cell biology and neuroscience
@@ -43,6 +45,7 @@ This example demonstrateds code reusability and the use of lazy operations in Ju
 * Packages: [JuliaImages suite](https://juliaimages.org/stable/)
 * Access point: Jupyter notebook
 * Computational focus: low-level user case
+![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_im.png)
 ### Metaprogramming: Example - Biochemical reaction networks
 This example demonstrates metaprogramming with Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb).
 * Domain: Biochemistry
@@ -51,6 +54,7 @@ This example demonstrates metaprogramming with Julia and the code can be found [
 * Packages: [DifferentialEquations.jl](https://diffeq.sciml.ai/stable/), [Catalyst.jl](https://github.com/SciML/Catalyst.jl), [GpABC.jl](https://github.com/tanhevg/GpABC.jl), [Turing.jl](https://turing.ml/stable/) 
 * Access point: Jupyter notebook
 * Computational focus: high-level user case
+![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/meta.png)
 ## 2. Links for learning more about Julia
 #### General resources
   * Official website with tutorial videos and notebooks: https://julialang.org and https://julialang.org/learning/notebooks
