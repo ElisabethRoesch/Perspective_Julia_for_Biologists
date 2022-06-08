@@ -1,14 +1,17 @@
 # Perspective: Julia for Biologists
-
+Authors: Elisabeth Roesch, Joe G. Greener, Adam L. MacLean, Huda Nassar, Christopher Rackauckas, Timothy E. Holy, Michael P.H. Stumpf.
+____
 This is the online material accompanying [the paper "Julia for Biologists"](https://arxiv.org/abs/2109.09973) and [the JuliaCon presentation "Julia for Biologists"](https://www.youtube.com/watch?v=gRj7E5kYG1I). It's objective is to provide
+
 A. a diverse collection of Julia **code examples** and 
+
 B. information on **related online material** in regards to Julia for biologists. 
-
-
+____
 The code [examples](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples) are chosen and organised in a way so that they highlight the three core language features of Julia: speed, abstraction and metaprogramming. We focus on capturing diversity in several regards:
-- Examples are selected from multiple biological and methodological domains (see list below). 
+- Examples are selected from multiple biological and methodological domains. 
 - They are also designed to reflect different levels in regards to the computational focus of readers/listeners: high-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and low-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
 - Additionally, they demonstrate different access points to Julia: jupyter notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and ``.jl`` files (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
+____
 ____
 ### Example 1 - Speed: Single cell data and network inference
 ____
@@ -71,26 +74,31 @@ This example demonstrates metaprogramming with Julia and the code can be found [
 * Access point: Jupyter notebook
 * Computational focus: high-level user case
 ____
-
+____
 #### General resources
   * Official website with tutorial videos and notebooks: https://julialang.org and https://julialang.org/learning/notebooks
   * Download and install Julia: https://julialang.org/downloads
   * Julia Academy, for free courses by core Julia developers: https://juliaacademy.com
   * The Julia Programming Language youtube channel: https://www.youtube.com/c/TheJuliaLanguage
+  ____
 #### Intermediate language features
   * "Developing Julia Packages" tutorial by Chris Rackauckas: https://www.youtube.com/watch?v=QVmU29rCjaA
   * "The Unreasonable Effectiveness of Multiple Dispatch" talk by Stefan Karpinski: https://www.youtube.com/watch?v=kc9HwsxE1OY
   * Introduction to metaprogramming workshop by David Sanders: https://www.youtube.com/watch?v=2QLhw6LVaq0
+  ____
 #### Switching to Julia
   * Using old R code in your new Julia project:https://juliainterop.github.io/RCall.jl/stable/gettingstarted/
+  ____
 #### Julia for biologists
   * BioJulia organisation website for bioinformatics packages and discussion: https://biojulia.net
   * Package searching on JuliaHub and Julia Observer: https://juliahub.com/ui/Packages and https://juliaobserver.com/categories/Biology
   * "Julia for Bioinformatics and Computational Biology" talk by Ben Ward, note this talk is from 2016 and some of the details are [out of date](https://biojulia.net/post/biojl): https://www.youtube.com/watch?v=0aa3g1NrLBM
   * "On the performance and design of BioSequences compared to the Seq language" blog post by Jakob Nybo Nissen and Ben J. Ward, which discusses some design tradeoffs and benchmarking in detail: https://biojulia.net/post/seq-lang
+  ____
 #### Community
   * Discourse, the main discussion forum for the Julia community: https://discourse.julialang.org
   * Slack, for quick and informal correspondence with a community of over 8,000 members: https://julialang.org/slack
   * Zulip, similar to Slack with unlimited message history: https://julialang.zulipchat.com
   * JuliaCon, the conference for all things Julia: https://juliacon.org
   * Current diversity and inclusion initiatives: https://julialang.org/diversity/current
+____
