@@ -1,12 +1,8 @@
 # Perspective: Julia for Biologists
 Authors: Elisabeth Roesch, Joe G. Greener, Adam L. MacLean, Huda Nassar, Christopher Rackauckas, Timothy E. Holy, Michael P.H. Stumpf.
 ____
-This is the online material accompanying [the paper "Julia for Biologists"](https://arxiv.org/abs/2109.09973) and [the JuliaCon presentation "Julia for Biologists"](https://www.youtube.com/watch?v=gRj7E5kYG1I). It's objective is to provide
+This is the online material accompanying [the paper "Julia for Biologists"](https://arxiv.org/abs/2109.09973) and [the JuliaCon presentation "Julia for Biologists"](https://www.youtube.com/watch?v=gRj7E5kYG1I). It's objective is to provide A. a diverse collection of Julia **code examples** and B. information on **related online material** in regards to Julia for biologists. 
 
-A. a diverse collection of Julia **code examples** and 
-
-B. information on **related online material** in regards to Julia for biologists. 
-____
 The code [examples](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples) are chosen and organised in a way so that they highlight the three core language features of Julia: speed, abstraction and metaprogramming. We focus on capturing diversity in several regards:
 - Examples are selected from multiple biological and methodological domains. 
 - They are also designed to reflect different levels in regards to the computational focus of readers/listeners: high-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/metaprogramming/Dynamical-systems-modeling.ipynb)) and low-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/abstraction/images_lazy)).
