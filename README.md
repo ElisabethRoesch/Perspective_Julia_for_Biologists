@@ -11,7 +11,7 @@ The code [examples](https://github.com/ElisabethRoesch/Perspective_Julia_for_Bio
 ____
 ### Example 1 - Speed: Single cell data and network inference
 ____
-![alt text](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_network.png)
+[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_network.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/Single_cell_data_and_network_inference.jl)
 ____
 
 This example demonstrates the speed of Julia for vectorisable code and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/examples/speed/Single_cell_data_and_network_inference.jl). 
@@ -42,7 +42,7 @@ This example demonstrates the composability of packages in Julia and the code ca
 * Domain: Structural bioinformatics
 * Methodology: Alignments, protein structure
 * Feature: Package composability
-* Packages: [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl), [BioSequences.jl](https://github.com/BioJulia/BioSequences.jl), [Bio3DViewer.jl](https://github.com/jgreener64/Bio3DView.jl), [MetaGraphs.jl](https://github.com/JuliaGraphs/MetaGraphs.jl), [LightGraphs.jl](https://github.com/sbromberger/LightGraphs.jl)
+* Packages: [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl), [BioSequences.jl](https://github.com/BioJulia/BioSequences.jl), [Bio3DViewer.jl](https://github.com/jgreener64/Bio3DView.jl), [MetaGraphs.jl](https://github.com/JuliaGraphs/MetaGraphs.jl), [Graphs.jl](https://juliagraphs.org/Graphs.jl/dev/)
 * Access point: Jupyter notebook
 * Computational focus: high-level user case
 ____
