@@ -83,7 +83,7 @@ ____
   * Introduction to metaprogramming workshop by David Sanders: https://www.youtube.com/watch?v=2QLhw6LVaq0
   ____
 #### Switching to Julia
-  * Using old R code in your new Julia project:https://juliainterop.github.io/RCall.jl/stable/gettingstarted/
+  * Using old R code in your new Julia project: https://juliainterop.github.io/RCall.jl/stable/gettingstarted/
   ____
 #### Julia for biologists
   * BioJulia organisation website for bioinformatics packages and discussion: https://biojulia.net
