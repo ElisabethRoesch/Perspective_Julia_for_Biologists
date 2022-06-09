@@ -1,4 +1,4 @@
-This folder contains the six examples described in the first [README.md file](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/README.md). They are grouped by ther core language design feature they are demonstrating. 
+This folder contains the six examples described in the first [README.md file](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/README.md). They are grouped by their core language design feature they are demonstrating. 
 * Speed
   * Example 1: Speed - Single cell data and network inference
   * Example 2: Speed - Dynamical systems and Lotka-Volterra
