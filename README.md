@@ -11,7 +11,8 @@ The code [examples](https://github.com/ElisabethRoesch/Perspective_Julia_for_Bio
 ____
 ### Example 1: Speed - Single cell data and network inference
 ____
-[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/Speed_network.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/interactive_network_analysis.jl)
+[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_network.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/interactive_network_analysis.jl)
+
 ____
 
 This example demonstrates the speed of Julia for vectorisable code and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/interactive_network_analysis.jl). If you haven't used Pluto notebooks before, see [here](https://github.com/fonsp/Pluto.jl) how to open them and explore!
@@ -24,7 +25,7 @@ This example demonstrates the speed of Julia for vectorisable code and the code 
 ____
 ### Example 2: Speed - Dynamical systems and Lotka-Volterra
 ____
-[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/Speed_lv.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/lotka_volterra_speed.jl)
+[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_lv.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/lotka_volterra_speed.jl)
 ____
 This example demonstrates the speed of Julia for non linear system code and can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/lotka_volterra_speed.jl).
 * Domain: Ecology
@@ -36,7 +37,7 @@ This example demonstrates the speed of Julia for non linear system code and can 
 ____
 ### Example 3: Abstraction - Structural bioinformatics
 ____
-[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/Abstraction_bioinfo.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Abstraction/structural_bioinformatics.ipynb)
+[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_bioinfo.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Abstraction/structural_bioinformatics.ipynb)
 ____
 This example demonstrates the composability of packages in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Abstraction/structural_bioinformatics.ipynb).
 * Domain: Structural bioinformatics
@@ -48,7 +49,7 @@ This example demonstrates the composability of packages in Julia and the code ca
 ____
 ### Example 4: Abstraction - Image processing in Julia
 ____
-[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/Abstraction_im.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/Examples/Abstraction/images_lazy)
+[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_im.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/Examples/Abstraction/images_lazy)
 ____
 This example demonstrateds code reusability and the use of lazy operations in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/Examples/Abstraction/images_lazy).
 * Domain: Cell biology and neuroscience
