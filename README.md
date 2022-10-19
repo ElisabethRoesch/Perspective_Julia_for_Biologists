@@ -7,15 +7,15 @@ This is the online material accompanying [the paper "Julia for Biologists"](http
 The code [examples](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/Examples) are chosen and organised in a way so that they highlight the three core language features of Julia: speed, abstraction and metaprogramming. We focus on capturing diversity in several regards:
 - Examples are selected from multiple biological and methodological domains. 
 - They are also designed to reflect different levels in regards to the computational focus of readers/listeners: high-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Metaprogramming/Dynamical-systems-modeling.ipynb)) and low-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/Examples/Abstraction/images_lazy)).
-- Additionally, they demonstrate different access points to Julia: jupyter notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Metaprogramming/Dynamical-systems-modeling.ipynb)) and ``.jl`` files (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/Examples/Abstraction/images_lazy)).
+- Additionally, they demonstrate different access points to Julia: Pluto notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/Example_Network_Inference_from_Single_Cell_Data), Jupyter notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Metaprogramming/Dynamical-systems-modeling.ipynb)) and ``.jl`` files (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/Examples/Abstraction/images_lazy)).
 ____
 ### Example 1: Speed - Single cell data and network inference
 ____
-[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_network.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/interactive_network_analysis.jl)
+[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_network.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/Example_Network_Inference_from_Single_Cell_Data)
 
 ____
 
-This example demonstrates the speed of Julia for vectorisable code and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/interactive_network_analysis.jl). If you haven't used Pluto notebooks before, see [here](https://github.com/fonsp/Pluto.jl) how to open them and explore!
+This example demonstrates the speed of Julia for vectorisable code and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/Example_Network_Inference_from_Single_Cell_Data). If you haven't used Pluto notebooks before, see [here](https://github.com/fonsp/Pluto.jl) how to open them and explore!
 * Domain: Single cell data
 * Methodology: Network inference
 * Feature: Speed for vectorisable code
@@ -25,21 +25,21 @@ This example demonstrates the speed of Julia for vectorisable code and the code 
 ____
 ### Example 2: Speed - Dynamical systems and Lotka-Volterra
 ____
-[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_lv.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/lotka_volterra_speed.jl)
+[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/speed_lv.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/Supplementary_Example_Accelerating_Dynamical_Systems_Modeling_in_Systems_Biology_and_Pharmacology)
 ____
-This example demonstrates the speed of Julia for non linear system code and can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/lotka_volterra_speed.jl).
+This example demonstrates the speed of Julia for non linear system code and can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Speed/Supplementary_Example_Accelerating_Dynamical_Systems_Modeling_in_Systems_Biology_and_Pharmacology).
 * Domain: Ecology
 * Methodology: Dynamical systems
 * Feature: Speed for non linear system code
 * Packages: [DifferentialEquations.jl](https://diffeq.sciml.ai/stable/)
 * Access point: ``.jl`` file
-* Computational focus: low-level user case
+* Computational focus: high-level user case
 ____
 ### Example 3: Abstraction - Structural bioinformatics
 ____
-[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_bioinfo.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Abstraction/structural_bioinformatics.ipynb)
+[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_bioinfo.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Abstraction/Example_Structural_bioinformatics_with_composable_packages)
 ____
-This example demonstrates the composability of packages in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Abstraction/structural_bioinformatics.ipynb).
+This example demonstrates the composability of packages in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Abstraction/Example_Structural_bioinformatics_with_composable_packages).
 * Domain: Structural bioinformatics
 * Methodology: Alignments, protein structure
 * Feature: Package composability
@@ -51,19 +51,19 @@ ____
 ____
 [![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_im.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/Examples/Abstraction/images_lazy)
 ____
-This example demonstrateds code reusability and the use of lazy operations in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/Examples/Abstraction/images_lazy).
+This example demonstrateds code reusability and the use of lazy operations in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Abstraction/Supplementary_Example_Flexibility_and_performance_in_image_processing).
 * Domain: Cell biology and neuroscience
 * Methodology: Image processing
-* Feature: [Code reusablility and lazy operations](examples/Abstraction/images_lazy/README.md)
+* Feature: Code reusablility and lazy operations
 * Packages: [JuliaImages suite](https://juliaimages.org/stable/)
 * Access point: Jupyter notebook
 * Computational focus: low-level user case
 ____
 ### Example 5: Metaprogramming - Biochemical reaction networks
 ____
-[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/meta.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Metaprogramming/Dynamical-systems-modeling.ipynb)
+[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/meta.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Metaprogramming/Example_Biochemical_reaction_networks)
 ____
-This example demonstrates metaprogramming with Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Metaprogramming/Dynamical-systems-modeling.ipynb).
+This example demonstrates metaprogramming with Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/Examples/Metaprogramming/Example_Biochemical_reaction_networks).
 * Domain: Biochemistry
 * Methodology: **Dynamical systems**
 * Feature: Metaprogramming
