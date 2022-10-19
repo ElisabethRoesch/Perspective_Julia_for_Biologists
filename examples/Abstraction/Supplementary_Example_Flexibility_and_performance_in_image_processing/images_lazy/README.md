@@ -4,11 +4,11 @@ This document and accompanying code examples provide evidence and additional dis
 
 ## A case study: `flood`
 
-Fig. 5a shows timing data on an example of a non-vectorizable algorithm, a [flood fill](https://en.wikipedia.org/wiki/Flood_fill) algorithm familiar to many users of drawing programs' bucket-fill feature.  This algorithm was chosen as a case study because it is one of Scikit-image's minority of morphological/segmentation algorithms that is applicable to both two- and three-dimensional images and whose performance is good enough to be practical on intermediate-sized images.
+Figure 7a, shows timing data on an example of a non-vectorizable algorithm, a [flood fill](https://en.wikipedia.org/wiki/Flood_fill) algorithm familiar to many users of drawing programs' bucket-fill feature.  This algorithm was chosen as a case study because it is one of Scikit-image's minority of morphological/segmentation algorithms that is applicable to both two- and three-dimensional images and whose performance is good enough to be practical on intermediate-sized images.
 
 This algorithm is implemented in Python's Scikit-image with a [Python wrapper](https://github.com/scikit-image/scikit-image/blob/6ba337500114102b88817afc409203241e21b337/skimage/morphology/_flood_fill.py) and [Cython core](https://github.com/scikit-image/scikit-image/blob/178e05f17855859d6661ebb6e04d8ddcb50c1cc5/skimage/morphology/_flood_fill_cy.pyx); Cython is one of the two most common "accelerators" for Python, allowing C-compilation of Python-esque code.  For comparison purposes, the Julia implementation [`ImageSegmentation.flood`](https://github.com/JuliaImages/ImageSegmentation.jl/blob/22a75f77214aad249ddf3808aa9b0937a5423641/src/flood_fill.jl) is deliberately designed to use the same (elementary) core algorithm, which examines each point's neighbors and pushes matching neighbors on a queue.
 
-As shown in Fig. 5a, despite being written in Cython, the Python implementation lags Julia's by several orders of magnitude.  This is despite the Julia implementation being considerably shorter (11 lines in Julia's core `_flood_fill!` vs 34 lines for the Cython cores, not including comments or blank lines).  The code used to generate these performance measurements is described further [below](#demos).
+As shown in Figure 7a, despite being written in Cython, the Python implementation lags Julia's by several orders of magnitude.  This is despite the Julia implementation being considerably shorter (11 lines in Julia's core `_flood_fill!` vs 34 lines for the Cython cores, not including comments or blank lines).  The code used to generate these performance measurements is described further [below](#demos).
 
 However, Julia's advantages go well beyond performance, and here we explore these advantages.
 
@@ -64,7 +64,7 @@ Many of these, notably the ones involving transformations of the array indexes (
 
 ## Demonstrations and source files for the figures {#demos}
 
-In Fig. 5 we present comparisons between Python and Julia in the domain of image processing; this section documents the way this comparison was performed.  These demonstrations were created on Ubuntu 20.04 using Julia 1.6.2 and Python 3.8.11.
+In Figure 7 we present comparisons between Python and Julia in the domain of image processing; this section documents the way this comparison was performed.  These demonstrations were created on Ubuntu 20.04 using Julia 1.6.2 and Python 3.8.11.
 
 The accompanying source files are:
 
@@ -76,7 +76,7 @@ The accompanying source files are:
 
   This script should be executed once before any of the next steps.  It will download the larger image to your temporary directory.  It will also install all necessary Julia packages.  In future steps, launch Julia with `julia --project` from this directory, or select this environment with `Pkg.activate`.  (Henceforth, you do not need `JULIA_COPY_STACKS=1`.)
 - For executing the Python code, users will need to manually install the required packages. `napari` is only needed for visualization and may be skipped.
-- [dask_images.py](dask_images.py) contains the Python implementation and some of the composability problems that arise as illustrated in Fig. 5c.  This is mostly documented in the code (running it does not generate obvious errors, as they are commented out). The Julia analog is [julia_dasklike.jl](julia_dasklike.jl).
+- [dask_images.py](dask_images.py) contains the Python implementation and some of the composability problems that arise as illustrated in Figure 7b.  This is mostly documented in the code (running it does not generate obvious errors, as they are commented out). The Julia analog is [julia_dasklike.jl](julia_dasklike.jl).
 - execute [dask_arrays_timing.py](dask_arrays_timing.py) for measuring the timing of a very simple operation, 2d region-of-interest (ROI) extraction, as a function of the ROI size along each axis.  The julia equivalent is [julia_dasklike_timing.jl](julia_dasklike_timing.jl).  The output of both are text files, `timing_python.txt` and `timing_julia.txt`.
 - The `flood` examples can be run with `python3 flood.py` and `julia --project flood.jl`. Their output is displayed in the console.
 
