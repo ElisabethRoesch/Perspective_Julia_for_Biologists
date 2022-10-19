@@ -7,7 +7,7 @@ This is the online material accompanying [the paper "Julia for Biologists"](http
 The code [examples](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples) are chosen and organised in a way so that they highlight the three core language features of Julia: speed, abstraction and metaprogramming. We focus on capturing diversity in several regards:
 - examples are selected from multiple biological and methodological domains. 
 - They are also designed to reflect different levels in regards to the computational focus of readers/listeners: high-level user cases (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Metaprogramming/Example_Biochemical_reaction_networks)) and low-level user cases (e.g. [here](  https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Abstraction/Supplementary_Example_Flexibility_and_performance_in_image_processing/images_lazy)).
-- Additionally, they demonstrate different access points to Julia: Pluto notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Speed/Example_Network_Inference_from_Single_Cell_Data), Jupyter notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Metaprogramming/Example_Biochemical_reaction_networks) and ``.jl`` files (e.g. [here](  https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Abstraction/Supplementary_Example_Flexibility_and_performance_in_image_processing/images_lazy)).
+- Additionally, they demonstrate different access points to Julia: Pluto notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Speed/Example_Network_Inference_from_Single_Cell_Data)), Jupyter notebooks (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Metaprogramming/Example_Biochemical_reaction_networks)) and ``.jl`` files (e.g. [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Abstraction/Supplementary_Example_Flexibility_and_performance_in_image_processing/images_lazy)).
 ____
 ### Example 1: Speed - Single cell data and network inference
 ____
@@ -49,9 +49,9 @@ This example demonstrates the composability of packages in Julia and the code ca
 ____
 ### Example 4: Abstraction - Image processing in Julia
 ____
-[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_im.png)](  https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Abstraction/Supplementary_Example_Flexibility_and_performance_in_image_processing/images_lazy)
+[![name](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/blob/main/figs/abstraction_im.png)](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Abstraction/Supplementary_Example_Flexibility_and_performance_in_image_processing/images_lazy)
 ____
-This example demonstrateds code reusability and the use of lazy operations in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Abstraction/Supplementary_Example_Flexibility_and_performance_in_image_processing).
+This example demonstrateds code reusability and the use of lazy operations in Julia and the code can be found [here](https://github.com/ElisabethRoesch/Perspective_Julia_for_Biologists/tree/main/examples/Abstraction/Supplementary_Example_Flexibility_and_performance_in_image_processing/images_lazy).
 * Domain: Cell biology and neuroscience
 * Methodology: Image processing
 * Feature: Code reusablility and lazy operations
