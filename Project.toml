@@ -2,6 +2,6 @@ authors = ["Elisabeth Roesch <elisabethh.roesch@gmail.com>",
            "Timothy Holy <tim.holy@gmail.com>",
            "Joe Greener <ucacjgg@ucl.ac.uk>",
            "Adam MacLean <macleana@usc.edu>",
-           Christopher Rackauckas <crackauc@mit.edu>"]
+           "Christopher Rackauckas <crackauc@mit.edu>"]
 
 name = "Perspective_Julia_for_Biologists"
